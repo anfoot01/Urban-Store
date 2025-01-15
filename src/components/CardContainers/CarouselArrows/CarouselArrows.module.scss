@@ -1,0 +1,24 @@
+.arrowCarousel{
+    width: 58px;
+    height: 58px;
+    background-color: var(--gray-color);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-left: 20px;
+
+    button:hover{
+        background-color: var(--gray-dark-color);
+        transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+    }
+
+}

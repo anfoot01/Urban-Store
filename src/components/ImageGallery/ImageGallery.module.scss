@@ -1,0 +1,32 @@
+.gallery {
+  display: flex;
+  gap: 20px;
+
+  &__mainIm {
+    width: 520px;
+    height: 720px;
+    object-fit: contain;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    &__mark {
+      position: absolute;
+      left: 0;
+      top: 40px;
+      padding: 5px 32px;
+      background: var(--light-orange-color);
+      border-radius: 0 8px 8px 0;
+      box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+    }
+    &__img {
+      border-radius: 12px;
+      width: 520px;
+      
+    }
+  }
+}

@@ -1,0 +1,175 @@
+.shortDesc {
+  display: flex;
+  flex-direction: column;
+  
+  &__shopName {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--white-color);
+    border-radius: 8px;
+    background: var(--gray-very-dark-color);
+    border: 0;
+    width: 205px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__NameRating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    height: 44px;
+    margin-bottom: 12px;
+  }
+  &__averageRatingBlock {
+    height: 44px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    background: var(--orange-color);
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--white-color);
+  }
+
+  &__productName {
+    max-width: 628px;
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--black);
+    margin-bottom: 8px;
+  }
+  &__code {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: var(--black);
+    margin-bottom: 20px;
+  }
+  &__price {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    margin-bottom: 88px;
+    &__final {
+      font-family: var(--second-family);
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 120%;
+      letter-spacing: -0.01em;
+      color: var(--black);
+      height: 48px;
+    }
+    &__discount {
+      &__price {
+        font-family: var(--second-family);
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 120%;
+        letter-spacing: -0.01em;
+        color: var(--gray-dark-color);
+        transform: translateY(-5px);
+      }
+      &__line {
+        transform: translateY(-40px);
+      }
+    }
+  }
+  &__subTitle {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--black);
+    margin-bottom: 8px;
+  }
+  &__color {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+    &__button {
+      border-radius: 8px;
+      width: 48px;
+      height: 48px;
+      background: var(--white-color);
+      border: 0;
+    }
+  }
+  &__size {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+    &__button {
+      border-radius: 8px;
+      width: 48px;
+      height: 48px;
+      background: var(--white-color);
+      border: 0;
+    }
+  }
+  &__quantity {
+    &__block {
+      display: flex;
+      gap: 4px;
+      &__changing {
+        padding: 10px;
+        background: var(--light-orange-2-color);
+        border: 0;
+        border-radius: 8px;
+      }
+      &__count {
+        padding: 10px 30px;
+        background: var(--white-color);
+        border-radius: 8px;
+        font-family: var(--second-family);
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 120%;
+        color: var(--black);
+      }
+    }
+    margin-bottom: 20px;
+  }
+  &__warning {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: var(--black);
+    margin-bottom: 12px;
+  }
+  &__btnGroup {
+    display: flex;
+    gap: 12px;
+    &__addToCart {
+      padding: 14px 75px;
+      font-family: var(--second-family);
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 120%;
+      color: var(--white);
+      border: 0;
+      border-radius: 8px;
+      background: var(--black-color);
+      color: var(--white-color);
+    }
+    &__addToFav {
+      padding: 6px 18px;
+      border: 0;
+      border-radius: 8px;
+      background: var(--black-color);
+      color: var(--white-color);
+    }
+  }
+}

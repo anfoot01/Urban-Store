@@ -1,0 +1,76 @@
+@import '../utils/';
+
+body {
+  font-family: $primary-font;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $secondary-font;
+}
+
+h1 {
+  @include text-style(80px, 600, 88px);
+}
+
+h2 {
+  @include text-style(48px, 600, 52.8px);
+  color: var(--gray-very-dark-color);
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+h3 {
+  @include text-style(40px, 600, 44px);
+}
+
+h4 {
+  @include text-style(24px, 600, 26.4px);
+}
+
+.body {
+  &-large {
+    @include text-style(36px, 700, 39.6px);
+  }
+
+  &-medium {
+    &-bold {
+      @include text-style(28px, 700, 30.8px);
+    }
+
+    &-regular {
+      @include text-style(24px, 400, 26.4px);
+    }
+
+    &-1 {
+      @include text-style(20px, 700, 22px);
+    }
+  }
+
+  &-small {
+    &-bold {
+      @include text-style(18px, 700, 19.8px);
+    }
+
+    &-regular {
+      @include text-style(18px, 700, 19.8px);
+    }
+
+    &-1 {
+      @include text-style(16px, 700, 17.6px);
+    }
+
+    &-2 {
+      @include text-style(14px, 700, 15.4px);
+    }
+  }
+}
+
+.caption {
+  @include text-style(12px, 700, 13.2px);
+}

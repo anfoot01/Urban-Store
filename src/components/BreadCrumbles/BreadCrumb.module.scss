@@ -1,0 +1,14 @@
+.breadcrumb{
+    display: flex;
+    &__ul{
+        padding: 8px 24px;
+        background: var(--purple-5-color);
+        border-radius: 8px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 16px;
+        max-height: 52px;
+    }
+    
+}

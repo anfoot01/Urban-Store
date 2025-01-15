@@ -1,0 +1,46 @@
+// Fonts
+$primary-font: "Manrope", sans-serif;
+$secondary-font: "Rubik", sans-serif;
+
+// Colors
+$white-color: #ffffff;
+$gray-color: #ececec;
+$gray-dark-color: #cccccc;
+$gray-very-dark-color: #404040;
+$black-color: #000000;
+$black-2-color: #171717;
+$black-color-2: #171717;
+
+$purple-1-color: #5e24c7;
+$purple-2-color: #7d3cf5;
+$purple-3-color: #a578f7;
+$purple-4-color: #bb96fe;
+$purple-5-color: #e9deff;
+
+$orange-color: #ff8544;
+$light-orange-color: #ffa97c;
+$light-orange-2-color: #ffebe1;
+
+:root {
+    // fonts
+    --primary-font: #{$primary-font};
+    --secondary-font: #{$secondary-font};
+
+    // colors
+    --black-color: #{$black-color};
+    --black-2-color: #{$black-2-color};
+    --black-color-2: #{$black-color-2};
+    --white-color: #{$white-color};
+    --gray-color: #{$gray-color};
+    --gray-very-dark-color: #{$gray-very-dark-color};
+    --gray-dark-color: #{$gray-dark-color};
+    --purple-1-color: #{$purple-1-color};
+    --purple-2-color: #{$purple-2-color};
+    --purple-3-color: #{$purple-3-color};
+    --purple-4-color: #{$purple-4-color};
+    --purple-5-color: #{$purple-5-color};
+    
+    --orange-color: #{$orange-color};
+    --light-orange-color: #{$light-orange-color};
+    --light-orange-2-color: #{$light-orange-2-color};
+  }

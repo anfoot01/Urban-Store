@@ -1,0 +1,106 @@
+.reviews {
+  margin-bottom: 80px;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    &__title {
+      font-family: var(--second-family);
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 120%;
+      letter-spacing: -0.01em;
+      text-transform: uppercase;
+      color: var(--black-color);
+    }
+    &__averageRating {
+      height: 44px;
+      display: flex;
+      gap: 4px;
+      align-items: center;
+      background: var(--orange-color);
+      padding: 8px 32px;
+      border-radius: 8px;
+      font-family: var(--second-family);
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 120%;
+      color: var(--white-color);
+    }
+    &__quantity {
+      font-family: var(--second-family);
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 120%;
+      text-align: right;
+      color: rgba(0, 0, 0, 0.2);
+    }
+    &__leftSide {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+  }
+  &__block {
+    border-radius: 12px;
+    box-shadow: 4px 6px 16px 0 rgba(0, 0, 0, 0.18);
+    background: var(--white);
+    padding: 32px 20px;
+    &__name {
+      font-family: var(--font-family);
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 120%;
+      color: rgba(0, 0, 0);
+      margin-bottom: 16px;
+    }
+    &__rating {
+      padding: 4px 0;
+      display: flex;
+      gap: 4px;
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 120%;
+      letter-spacing: -0.01em;
+      text-transform: uppercase;
+      color: rgba(0, 0, 0);
+    }
+    &__stars {
+      margin-bottom: 8px;
+    }
+    &__comment {
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+      color: rgba(0, 0, 0);
+      margin-bottom: 16px;
+      height: 80px;
+    }
+    &__date {
+      font-family: var(--font-family);
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+      color: rgba(0, 0, 0);
+    }
+  }
+  &__viewAll {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    &__btn {
+      padding: 13px 74px;
+      background: var(--black-color);
+      border-radius: 8px;
+      border: 0;
+      font-family: var(--second-family);
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 120%;
+      color: var(--white-color);
+    }
+  }
+}

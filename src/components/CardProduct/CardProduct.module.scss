@@ -1,0 +1,94 @@
+.cardProduct{
+    max-width: 316px;
+    width: 316px;
+    height: 480px;
+    padding: 20px;
+    box-shadow: 4px 6px 12px 0 rgba(0, 0, 0, 0.18);
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    cursor: pointer;
+
+    &__img{
+        max-width: 276px;
+        height: 276px;
+        background-color: var(--gray-dark-color);
+    }
+
+    &__title{
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        color: var(--black-color);
+        margin-top: 16px;
+    }
+
+    &__shop{
+        font-family: var(--font-family);
+        font-weight: 300;
+        font-size: 14px;
+        color: var(--black-color);
+        margin-top: 34px;
+    }
+
+    &__panelBtn{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__price{
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 24px;
+        color: var(--black-color);
+        margin-top: 30px;
+    }
+
+    &__btn{
+        width: 52px;
+        height: 44px;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        background-color: var(--gray-color);
+        margin: 24px 0 0 16px;
+        padding-left: 8px;
+    
+        &:hover {
+            fill: var(--purple-4-color); // Сиреневый при наведении
+            color: var(--black-color);
+        }
+
+        &.active {
+            fill: var(--purple-4-color); // Сиреневый цвет при клике
+        }
+    }
+
+    &__priceChange{
+        display: flex;
+    }
+
+    &__oldprice{
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 20px;
+        color: var(--gray-color);
+        margin: 35px 0 0 6px;
+        position: relative;
+        padding: 0 7px;
+
+        &::after{
+            content: '';
+            position: absolute;
+            top: 35%;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background-color: var(--gray-very-dark-color);
+        }
+    }
+    
+}

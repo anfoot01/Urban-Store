@@ -1,0 +1,149 @@
+[
+    {
+      "id": 1,
+      "name": "Alexander Ivanenko",
+      "rating": 5,
+      "comment": "Nice!",
+      "date": "2024-12-01"
+    },
+    {
+      "id": 2,
+      "name": "Maria Petrova",
+      "rating": 4,
+      "comment": "Everything was good, but I wish it was a bit faster.",
+      "date": "2024-11-28"
+    },
+    {
+      "id": 3,
+      "name": "Igor Kovalenko",
+      "rating": 3,
+      "comment": "Not bad, but there were some communication issues.",
+      "date": "2024-11-20"
+    },
+    {
+      "id": 4,
+      "name": "Natalia Sydorenko",
+      "rating": 5,
+      "comment": "Simply amazing! Will definitely come back again!",
+      "date": "2024-11-15"
+    },
+    {
+      "id": 5,
+      "name": "Peter Grygorenko",
+      "rating": 2,
+      "comment": "Not very satisfied, they could have done better.",
+      "date": "2024-11-10"
+    },
+    {
+      "id": 6,
+      "name": "Sophia Tarasova",
+      "rating": 4,
+      "comment": "Overall good, but the price was a bit high.",
+      "date": "2024-11-05"
+    },
+    {
+        "id": 7,
+        "name": "Alexander Ivanenko",
+        "rating": 5,
+        "comment": "Very satisfied with the service, everything was fast and high quality!",
+        "date": "2024-12-01"
+      },
+      {
+        "id": 8,
+        "name": "Maria Petrova",
+        "rating": 4,
+        "comment": "Everything was good, but I wish it was a bit faster.",
+        "date": "2024-11-28"
+      },
+      {
+        "id": 9,
+        "name": "Igor Kovalenko",
+        "rating": 3,
+        "comment": "Not bad, but there were some communication issues.",
+        "date": "2024-11-20"
+      },
+      {
+        "id": 10,
+        "name": "Natalia Sydorenko",
+        "rating": 1,
+        "comment": "Bad!",
+        "date": "2024-11-15"
+      },
+      {
+        "id": 11,
+        "name": "Peter Grygorenko",
+        "rating": 2,
+        "comment": "Not very satisfied, they could have done better.",
+        "date": "2024-11-10"
+      },
+      {
+        "id": 12,
+        "name": "Sophia Tarasova",
+        "rating": 4,
+        "comment": "Overall good, but the price was a bit high.",
+        "date": "2024-11-05"
+      },
+      {
+        "id": 13,
+        "name": "Natalia Sydorenko",
+        "rating": 3,
+        "comment": "OK!",
+        "date": "2024-11-15"
+      },
+      {
+        "id": 14,
+        "name": "Natalia Sydorenko",
+        "rating": 2,
+        "comment": "Quality is too low!",
+        "date": "2024-11-15"
+      },
+      {
+        "id": 15,
+        "name": "Natalia Sydorenko",
+        "rating": 5,
+        "comment": "Simply amazing! Will definitely come back again!",
+        "date": "2024-11-15"
+      },
+      {
+        "id": 16,
+        "name": "Natalia Sydorenko",
+        "rating": 5,
+        "comment": "Simply amazing! Will definitely come back again!",
+        "date": "2024-11-15"
+      },
+      {
+        "id": 17,
+        "name": "Natalia Sydorenko",
+        "rating": 1,
+        "comment": "Just bad!",
+        "date": "2024-11-15"
+      },
+      {
+        "id": 18,
+        "name": "Natalia Sydorenko",
+        "rating": 5,
+        "comment": "Simply amazing! Will definitely come back again!",
+        "date": "2024-11-15"
+      },
+      {
+        "id": 19,
+        "name": "Natalia Sydorenko",
+        "rating": 5,
+        "comment": "Simply amazing! Will definitely come back again!",
+        "date": "2024-11-15"
+      },
+      {
+        "id": 20,
+        "name": "Natalia Sydorenko",
+        "rating": 5,
+        "comment": "Simply amazing! Will definitely come back again!",
+        "date": "2024-11-15"
+      },
+      {
+        "id": 21,
+        "name": "Natalia Sydorenko",
+        "rating": 1,
+        "comment": "Really Bad!",
+        "date": "2024-11-15"
+      }
+  ]

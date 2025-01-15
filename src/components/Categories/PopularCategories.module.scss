@@ -1,0 +1,91 @@
+.popularCategories {
+  margin: 80px 0;
+}
+
+.container__popular {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .popularBlock__1, .popularBlock__21, .popularBlock__22, .popularBlock__23 {
+    display: flex;
+    align-items: flex-end; /* Текст внизу */
+    padding: 24px 24px 20px; /* Отступы внутри блоков */
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .popularBlock__1 {
+    background: var(--purple-1-color);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    max-width: 652px;
+    height: 380px;
+}
+
+.popularBlock1, .popularBlock2{
+  max-width: 652px;
+  width: 652px;
+}
+
+  .popularBlock__2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .popularBlock__21 {
+    grid-column: span 2;
+    background-color: var(--orange-color);
+    display: flex;
+    align-items: flex-end;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    max-width: 652px;
+    height: 180px;
+
+  }
+
+  .popularBlock22, .popularBlock23{
+    max-width: 316px;
+    width: 316px;
+  }
+
+  .popularBlock__22, .popularBlock__23 {
+    display: flex;
+    align-items: flex-end;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    max-width: 316px;
+    height: 180px;
+  }
+
+  .popularBlock__22{
+    background-color: var(--light-orange-2-color);
+  }
+
+  .popularBlock__23{
+    background-color: var(--light-orange-color);
+  }
+
+.link {
+    display: block;
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.link_dark {
+  display: block;
+  color: var(--black-color);
+  text-decoration: none;
+}
+

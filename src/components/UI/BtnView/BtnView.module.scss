@@ -1,0 +1,22 @@
+.btnView{
+    padding: 13px 76px;
+    background-color: var(--black-color);
+    border-radius: 8px;
+    font-size: 24px;
+    color: var(--white-color);
+    font-weight: 400;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+
+    &:hover,
+    &:focus{
+        background-color: var(--gray-very-dark-color);
+        transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+    }
+}

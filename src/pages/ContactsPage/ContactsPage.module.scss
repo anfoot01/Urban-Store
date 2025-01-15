@@ -1,0 +1,54 @@
+@import '../../../scss/utils/';
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 164px 58px;
+}
+
+.contacts__title {
+  margin-top: 40px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.info {
+  background-color: $light-orange-2-color;
+  border-radius: 12px;
+  width: 876px;
+  max-width: 876px;
+  padding: 120px 112px;
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.socials {
+  display: flex;
+  gap: 16px;
+}
+
+.logo {
+  border-radius: 12px;
+  background-color: $purple-5-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 428px;
+  max-width: 428px;
+}
+
+.inst {
+  fill: red;
+}
