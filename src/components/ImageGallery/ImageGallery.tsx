@@ -8,7 +8,7 @@ const ImageGallery = () => {
 
   return (
     <div className={styles.gallery}>
-      <div>
+      <div className={styles.gallery__btnGroup}>
         {images.map((image, index) => (
           <img
             key={index}
